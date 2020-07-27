@@ -1,0 +1,275 @@
+{
+    "key": "group_5e850edb21e72",
+    "title": "Defaults",
+    "fields": [
+        {
+            "key": "field_5e878c5445810",
+            "label": "Labels",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e878c6845811",
+            "label": "Best Mattress Label",
+            "name": "best_mattress_label",
+            "type": "group",
+            "instructions": "Label and Frame box for the highlighted Best Mattress",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e878cd045812",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "Best Label ie: Best Value",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Best Value",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5e878d0745813",
+                    "label": "Box Color",
+                    "name": "box_color",
+                    "type": "color_picker",
+                    "instructions": "Color of the Box Frame",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#f5a623"
+                },
+                {
+                    "key": "field_5f0d56edc1e5e",
+                    "label": "Hidden",
+                    "name": "hidden",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e878e438800a",
+            "label": "Read More Label",
+            "name": "read_more_label",
+            "type": "group",
+            "instructions": "Read more Label and hide\/show toggle: targets Homepage template",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e878ec28800b",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Read more",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5e878ef58800c",
+                    "label": "Hidden",
+                    "name": "hidden",
+                    "type": "true_false",
+                    "instructions": "Toggles for Global Show of read more on post links; can be override thru individual products",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "Show Read more",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Hidden",
+                    "ui_off_text": "Shown"
+                }
+            ]
+        },
+        {
+            "key": "field_5e879135687cb",
+            "label": "Read Review Label",
+            "name": "read_review_label",
+            "type": "group",
+            "instructions": "This targets the read review link for the Review page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e87917e687cc",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Read review",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5e87918f687cd",
+                    "label": "Hidden",
+                    "name": "hidden",
+                    "type": "true_false",
+                    "instructions": "Toggles for Global Show of read review on products page; can be override thru individual products;",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "Read review",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e87927a255fd",
+            "label": "Website CTA Label",
+            "name": "website_cta_label",
+            "type": "group",
+            "instructions": "Goto Website or Visit Website",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e87927a255fe",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Visit Website",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5e87927a255ff",
+                    "label": "Hidden",
+                    "name": "hidden",
+                    "type": "true_false",
+                    "instructions": "Toggles for Global Show of visit website on products page; can be override thru individual products;",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "Visit Website",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-defaults"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1594709835
+}

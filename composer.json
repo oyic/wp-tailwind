@@ -1,0 +1,17 @@
+{
+    "name": "sqe/starter",
+    "description": "This is SquareEye Boilertemplate",
+    "type": "project",
+    "require": {
+        "tgmpa/tgm-plugin-activation": "^2.6"
+    },
+    "authors": [
+        {
+            "name": "Chris Alberto",
+            "email": "oyic@outlook.com"
+        }
+    ],
+    "autoload":{
+        "psr-4" : { "Emma\\" : "App/"}
+    }
+}
